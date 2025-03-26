@@ -2,7 +2,7 @@ import csv
 from dataclasses import asdict
 from model.TokenHoldingSecurityData import TokenHoldingSecurityData
 
-csv_file_path = "token_security_data_2.csv"
+csv_file_path = "token_security_data.csv"
 
 def write_tokens_into_csv(tokens: list[TokenHoldingSecurityData]):
     # Write to CSV

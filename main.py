@@ -41,9 +41,9 @@ def print_token_statistics_from_dicts(rows: list[dict]) -> None:
 
 if __name__ == "__main__":
     # commented since already saved .csv
-    tokens: list[TokenHoldingSecurityData] = scrape_tokens()
-    append_goplus_data(tokens)
-    write_tokens_into_csv(tokens)
+    # tokens: list[TokenHoldingSecurityData] = scrape_tokens()
+    # append_goplus_data(tokens)
+    # write_tokens_into_csv(tokens)
     #
-    # tokens_dict = read_tokens_from_csv()
-    # print_token_statistics_from_dicts(tokens_dict)
+    tokens_dict = read_tokens_from_csv()
+    print_token_statistics_from_dicts(tokens_dict)
